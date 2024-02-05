@@ -3,7 +3,7 @@
 A blood management system plays a crucial role in healthcare organizations by effectively managing the supply, storage, and utilization of blood and blood products.<br/>
 Here are some key points highlighting the importance of our a blood management system:
 
-1. Patient Safety <br/>
+1. Seach Blood Based on Location
 2. Optimal Resource Utilization<br/>
 3. Cost Savings<br/>
 4. Improved Efficiency<br/>
