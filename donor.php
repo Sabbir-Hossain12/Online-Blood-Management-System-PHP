@@ -1,6 +1,6 @@
 <?php
 
-	include ('include/header.php');
+	include('components/header.php');
 
 ?>
 
@@ -150,6 +150,6 @@ while($row=mysqli_fetch_assoc($result)){
 
 <?php
 
-	include ('include/footer.php');
+	include('components/footer.php');
 
 ?>

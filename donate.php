@@ -1,6 +1,6 @@
 <?php
   //include header file
-  include ('include/header.php');
+  include('components/header.php');
 
 if(isset($_POST['submit'])){
   if(isset($_POST['term'])==true){
@@ -502,5 +502,5 @@ box-shadow: 0px 2px 5px -2px rgba(89,89,89,0.95);
 
 <?php
   //include footer file
-  include ('include/footer.php');
+  include('components/footer.php');
 ?>

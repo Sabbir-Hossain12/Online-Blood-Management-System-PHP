@@ -1,7 +1,7 @@
 <?php
 
 //include header file
-include('include/header.php');
+include('components/header.php');
 
 ?>
 <style>
@@ -186,6 +186,6 @@ include('include/header.php');
 <?php
 
 //include footer file
-include 'include/footer.php';
+include 'components/footer.php';
 
 ?>

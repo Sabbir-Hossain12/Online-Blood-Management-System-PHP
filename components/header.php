@@ -9,13 +9,13 @@
         <meta name="description" content="Blood Donation Website">
         <meta name="author" content="Exceptional Programmers">
 
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="asset/css/styles.css">
 
 		<!-- Bootstrap Link CSS Files -->
-        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="asset/bootstrap/css/bootstrap.min.css">
 
         <!-- Custom Link CSS Files -->
-		<link rel="stylesheet" href="css/custom.css">
+		<link rel="stylesheet" href="asset/css/custom.css">
 
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
