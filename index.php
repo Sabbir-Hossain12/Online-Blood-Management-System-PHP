@@ -19,62 +19,63 @@ include('components/header.php');
             <h1 class="text-center">Search The Donors</h1>
             <hr class="white-bar text-center">
 
-            <form action="search.php" method="get" class="form-inline text-center" style="padding: 40px 0px 0px 5px;">
-                <div class="form-group text-center justify-content-center">
+            <form action="search.php" method="get"
+                  class="text-center">
 
-                    <select style="width: 220px; height: 45px;" name="city" id="city" class="form-control demo-default"
-                            required>
+                <div class="d-flex justify-content-around align-items-center py-4 form">
+                    <div class=" w-50 m-3">
 
-                        <option value="">-- Select --</option>
-                        <optgroup title="Dhaka Division" label="&raquo; Dhaka Division">
-                        </optgroup>
-                        <option value="Dhaka city">Dhaka city</option>
-                        <option value="Gazipur">Gazipur</option>
-                        <option value="Tangail">Tangail</option>
-                        <option value="Faridpur">Faridpur</option>
-                        <option value="Gopalganj">Gopalganj</option>
-                        <option value="Kishoreganj">Kishoreganj</option>
-                        <option value="Madaripur">Madaripur</option>
-                        <option value="Manikganj">Manikganj</option>
-                        <option value="Munshiganj">Munshiganj</option>
-                        <option value="Narayanganj">Narayanganj</option>
-                        <option value="Narsingdi">Narsingdi</option>
-                        <option value="Rajbari">Rajbari</option>
-                        <option value="Shariatpur">Shariatpur</option>
-                        <optgroup title="Mymensingh Division" label="&raquo; Mymensingh Division"></optgroup>
-                        <option value="Mymensingh">Mymensingh</option>
-                        <option value="Sherpur">Sherpur</option>
-                        <option value="Netrokona">Netrokona</option>
-                        <option value="Jamalpur">Jamalpur</option>
-                        <optgroup title="Rajshahi Division" label="&raquo; Rajshahi Division"></optgroup>
-                        <option value="Rajshahi">Rajshahi</option>
-                        <option value="Sirajganj">Sirajganj</option>
-                        <option value="Pabna">Pabna</option>
-                        <option value="Bogura">Bogura</option>
-                        <option value="Chapainawabganj">Chapainawabganj</option>
-                        <option value="Naogaon">Naogaon</option>
-                        <option value="Joypurhat">Joypurhat</option>
-                        <option value="Natore">Natore</option>
-                    </select>
+                        <select class="form-control form-select " name="city">
+                            <option class="text-dark font-weight-bold" selected disabled hidden> Select an Location</option>
+                            <optgroup title="Dhaka Division" label="&raquo; Dhaka Division">
+                            </optgroup>
+                            <option value="Dhaka city">Dhaka city</option>
+                            <option value="Gazipur">Gazipur</option>
+                            <option value="Tangail">Tangail</option>
+                            <option value="Faridpur">Faridpur</option>
+                            <option value="Gopalganj">Gopalganj</option>
+                            <option value="Kishoreganj">Kishoreganj</option>
+                            <option value="Madaripur">Madaripur</option>
+                            <option value="Manikganj">Manikganj</option>
+                            <option value="Munshiganj">Munshiganj</option>
+                            <option value="Narayanganj">Narayanganj</option>
+                            <option value="Narsingdi">Narsingdi</option>
+                            <option value="Rajbari">Rajbari</option>
+                            <option value="Shariatpur">Shariatpur</option>
+                            <optgroup title="Mymensingh Division" class="text-black" label="&raquo; Mymensingh Division"></optgroup>
+                            <option value="Mymensingh">Mymensingh</option>
+                            <option value="Sherpur">Sherpur</option>
+                            <option value="Netrokona">Netrokona</option>
+                            <option value="Jamalpur">Jamalpur</option>
+                            <optgroup title="Rajshahi Division" label="&raquo; Rajshahi Division"></optgroup>
+                            <option value="Rajshahi">Rajshahi</option>
+                            <option value="Sirajganj">Sirajganj</option>
+                            <option value="Pabna">Pabna</option>
+                            <option value="Bogura">Bogura</option>
+                            <option value="Chapainawabganj">Chapainawabganj</option>
+                            <option value="Naogaon">Naogaon</option>
+                            <option value="Joypurhat">Joypurhat</option>
+                            <option value="Natore">Natore</option>
+                        </select>
+                    </div>
+                    <div class="w-50 m-3">
+                        <select class="form-control form-select" name="blood_group">
+                            <option class="text-dark font-weight-bold" selected  hidden disabled>Select Blood group</option>
+                            <option value="A+">A+</option>
+                            <option value="A-">A-</option>
+                            <option value="B+">B+</option>
+                            <option value="B-">B-</option>
+                            <option value="AB+">AB+</option>
+                            <option value="AB-">AB-</option>
+                            <option value="O+">O+</option>
+                            <option value="O-">O-</option>
+
+                        </select></div>
+
 
                 </div>
-                <div class="form-group center-aligned">
-                    <select name="blood_group" id="blood_group" style="padding: 0 20px; width: 220px; height: 45px;"
-                            class="form-control demo-default text-center margin10px">
-
-                        <option value="A+">A+</option>
-                        <option value="A-">A-</option>
-                        <option value="B+">B+</option>
-                        <option value="B-">B-</option>
-                        <option value="AB+">AB+</option>
-                        <option value="AB-">AB-</option>
-                        <option value="O+">O+</option>
-                        <option value="O-">O-</option>
-
-                    </select>
-                </div>
-                <div class="form-group center-aligned">
-                    <button type="submit" class="btn btn-lg btn-danger">Search</button>
+                <div>
+                    <button type="submit" class="btn btn-lg btn-danger rounded ">Search</button>
                 </div>
             </form>
         </div>

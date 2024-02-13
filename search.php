@@ -72,8 +72,8 @@ include('components/header.php');
 			<hr class="white-bar">
 			<br>
 			<form action="search.php" method="get" class="form-inline text-center" style="padding: 40px 0px 0px 5px;">
-				<div class="form-inline text-center" style="padding: 40px 0px 0px 5px;">
-					<div class="form-group text-center center-aligned">
+				<div class="form-inline text-center" style="padding: 40px 0px 0px 5px;" id="searchb">
+					<div class="form-group text-center center-aligned" >
 						<select style="width: 220px; height: 45px;" name="city" id="city" class="form-control demo-default" required>
 
 							<option value="">-- Select --</option>

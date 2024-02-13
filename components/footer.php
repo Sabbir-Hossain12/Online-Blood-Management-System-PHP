@@ -1,29 +1,4 @@
 
-<!--			<div class="container-fluid">-->
-<!--				<div class="row contactus">-->
-<!--					<div class="col-md-6 offset-md-3">-->
-<!--						<h1 class="text-center">Contact Us</h1>-->
-<!--						<hr class="white-bar">-->
-<!---->
-<!--							<h1 class="text-center">-->
-<!--								<a  target="_blank" href="https://www.facebook.com"><i style="color: #fff;" class="fab fa-facebook-square"></i></a>-->
-<!---->
-<!--								<a target="_blank" href="https://www.youtube.com"><i style="color: #fff;" class="fab fa-youtube-square"></i></a>-->
-<!--							</h1>-->
-<!---->
-<!--							<div class="details">-->
-<!--								 <p style="text-align:center"> 01926241906 <i class="fa fa-phone"></i>  sh1345@gmail.com  <i class="fa fa-envelope"></i>  </p></p>-->
-<!---->
-<!---->
-<!--							</div>-->
-<!---->
-<!--					</div>-->
-<!--				</div>-->
-<!--			</div>-->
-<!--		-->
-
-
-
     <footer class="py-5 mt-5" style="background-color: #e74c3c;">
         <ul class="nav justify-content-center pb-3 mb-3 text-white">
             <li class="nav-item"><a href="index.php" class="px-2 text-white">Home</a></li>

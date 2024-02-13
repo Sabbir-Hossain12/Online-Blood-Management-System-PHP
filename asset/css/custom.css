@@ -298,3 +298,23 @@ body {
     flex: 1;
     /* align-items: center; */
 }
+
+
+/*media query*/
+
+@media (min-width: 412px) and (max-width: 500px) {
+
+/*#bloodselect*/
+/*{*/
+/*    margin-top: .4rem;*/
+/*    margin-left: 6.7rem;*/
+/*}*/
+
+    #searchb
+    {
+        display: flex;
+    }
+
+
+
+}
