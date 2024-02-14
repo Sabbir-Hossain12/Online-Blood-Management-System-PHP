@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b1735c8-c6bf-48c4-ad1b-c43fea45c14d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Online-Blood-Management-System.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    <list default="true" id="de7b8cc3-67b9-4ba6-a2b7-e41c6ca5c593" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/search.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,15 +27,13 @@
   "customColor": "",
   "associatedIndex": -1
 }]]></component>
-  <component name="ProjectId" id="2cIrwlDVNkM7Bh2kvyutGJCu8Uu" />
+  <component name="ProjectId" id="2cLYbpIWTuFFg17xUxmFvuXGJkQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -54,22 +45,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Xammp\htdocs\Full Stack\Online-Blood-Management-System\database" />
-      <recent name="E:\Xammp\htdocs\Full Stack\Online-Blood-Management-System\asset" />
-      <recent name="E:\Xammp\htdocs\Full Stack\Online-Blood-Management-System" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6b1735c8-c6bf-48c4-ad1b-c43fea45c14d" name="Changes" comment="" />
-      <created>1707810175491</created>
+      <changelist id="de7b8cc3-67b9-4ba6-a2b7-e41c6ca5c593" name="Changes" comment="" />
+      <created>1707892401679</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1707810175491</updated>
-      <workItem from="1707810178745" duration="11899000" />
+      <updated>1707892401679</updated>
+      <workItem from="1707892405132" duration="1298000" />
     </task>
     <servers />
   </component>
